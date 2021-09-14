@@ -9,7 +9,7 @@ import java.util.concurrent.Executors;
 
 public class RpcServer {
 	
-	ExecutorService executors = Executors.newFixedThreadPool(5);
+	ExecutorService executors = Executors.newCachedThreadPool();
 	
 	ServerSocket socket =null;
 
