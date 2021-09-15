@@ -7,13 +7,14 @@
   <dependencies>
     <dependency>
           <groupId>com.chubin.rpc.api</groupId>
-		  <artifactId>com-chubin-rpc-api</artifactId>
+		  <artifactId>com-chubin-rpc-api </artifactId>
 		  <version>0.0.1-SNAPSHOT</version>
     </dependency>
     
     <dependency>
            <groupId>org.springframework</groupId>
            <artifactId>spring-context</artifactId>
+           <version>5.1.5.RELEASE</version>
            <version>5.1.5.RELEASE </version>
     </dependency>
 
@@ -41,5 +42,5 @@
           <version>1.9.2</version>
       </dependency>
   </dependencies>
-
+  
 </project>
